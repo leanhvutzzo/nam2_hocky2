@@ -1,0 +1,40 @@
+html {
+    font-size: 110%;
+}
+
+/* nav */
+.navbar-expand-sm .navbar-nav .nav-link {
+    color: #777 !important;
+}
+.navbar-expand-sm .navbar-nav .active>.nav-link {
+    color: #fff !important;
+}
+/* end nav */
+
+/* question 2 */
+.helpText {
+    color: red;
+}
+
+#result {
+    display: inline-block;
+    background-color: #fdc10a;
+}
+/* end question 2 */
+
+
+/* question 3 */
+
+.result{
+    display: flex;
+}
+
+.result div{
+    margin-left: 40px;
+    background-color: #fdc10a;
+    text-align: center;
+    color: #542d26;
+
+}
+
+/* end question 3 */

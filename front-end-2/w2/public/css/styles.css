@@ -1,0 +1,55 @@
+html {
+  font-size: 110%;
+  /* overflow: hidden; */
+}
+#header-top {
+  background-image: url("../images/beach.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.ab-top {
+  z-index: 100;
+}
+.animate-button {
+  margin-top: 27vh;
+  margin-bottom: 4vh;
+  text-align: center;
+}
+a.mbtn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 2.25rem;
+  padding: 25px 25px 35px 25px;
+  background-color: #fcc101;
+  color: #000;
+  border-radius: 300px;
+}
+
+.header_wave-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header_wave-top path {
+  fill: #008ec0;
+  mix-blend-mode: multiply;
+}
+.header_wave-bottom {
+  transform: rotate(180deg);
+  margin-bottom: -2px;
+}
+.header_wave-bottom path {
+  fill: #fff;
+}
+
+nav.navbar :is(.navbar-brand, li.nav-item.active a.nav-link) {
+  color: #fff;
+  font-weight: 500;
+}
+nav.navbar :is(.navbar-brand, li.nav-item a.nav-link) {
+  color: #71abe2;
+  font-weight: 500;
+}

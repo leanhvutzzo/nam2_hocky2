@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lê Anh Vũ - Question 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+
+<body>
+    <header style="background-color: #343a40;">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm">
+                <a class="navbar-brand" style="color: #fff; font-weight: 600;" href="#">FIT-TDC</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="question1.html">Question 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="question2.html">Question 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="question3.html">Question 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <h3>Your Data</h3>
+                        <label for="listvalue">Values (Comma-separated, max 8 values)</label>
+                        <input type="text" id="listvalue" placeholder="Enter values " required
+                            autocomplete="1, 2, 3, 4, 5" autofocus>
+                        <p class="helpText"></p>
+                        <button type="submit" id="draw" class="btn btn-primary">Draw chart</button>
+                        <p class="color-gray">*Higest bar will not exceed 500px</p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h3>Your result</h3>
+
+                    <div class="result">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer style="background: #343a40; color: #fff;">
+        <div class="container">
+            <p style="text-align: center; padding: 40px;"><b>Copyright &copy; FIT-TDC 20196</b></p>
+        </div>
+    </footer>
+    <!-- my script -->
+    <script src="./public/js/question3.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
